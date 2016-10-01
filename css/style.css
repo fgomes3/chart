@@ -1,0 +1,97 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22/06/2016, 14:36:34
+    Author     : fabio.gomes
+*/
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body{
+    color: #cfd2da !important;
+    background-color: #252830 !important;
+    font-family: 'Roboto', sans-serif !important;
+
+}
+.ulnav{
+    border-bottom: 2px solid #585B63 !important;
+}
+.contop{
+    margin-top: 20px;
+}
+.ptop{
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: normal;
+    font-size: 18px;
+    color: #4A4E5A;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.ptopbottom{
+    font-size: 24px;
+}
+.active{
+    border-bottom: 10px !important;
+    font-weight: 500;
+    color: #1ca8dd;
+    border-bottom-color: #1ca8dd;
+}
+a{
+    color: #FFFFFF !important;
+}
+.menudash{
+    font-size: 20px;
+}
+.menudash:hover{
+    text-decoration: none !important;
+    background-color: transparent !important;
+    color: #B3B3B3 !important;
+    cursor: pointer;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
+    color: #1ca8dd !important;
+    border-bottom: 4px solid #1ca8dd;
+    font-weight: bold;
+    border-radius: 0px !important;
+    background-color: transparent !important;
+}
+.labeldata{
+    width: 135px;
+    height: 35px;
+    padding: 6px 18px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: #434857;
+    background-image: none;
+    border: 1px solid #434857;
+
+}
+.rigthcalendar{
+    text-align: right;
+    padding-top: 20px;
+}
+.totalbuttom{
+    font-size: 18px !important;
+    letter-spacing: .15em;
+    color: #a9aebd;
+    text-transform: uppercase;
+}
+.totalnegativo{
+    color: #e64759;
+    font-size: 25px;
+}
+.totalpositivo{
+    color: #1bc98e;
+    font-size: 25px;
+}
+.icontotal{
+    font-size: 12px !important;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: transparent !important;
+}
